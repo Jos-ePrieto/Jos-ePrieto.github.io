@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="images/imagen.png.jpeg" alt="Mi fotografía" class="photo">
+            <div class="intro">
+                <h1>José Alejandro Prieto Salcedo</h1>
+                <p>Hola, soy Alejandro, un estudiante apasionado por la programación de software, actualmente cursando décimo grado en 
+                    la I.E. Sagrado Corazón de Jesús. Además de recibir ayuda en temas relacionados con programación y redacción, también 
+                    puedo ofrecerte soporte en proyectos que involucren C y C++.</p>
+            </div>
+        </header>
+        
+        <hr class="divider">
+
+        <div class="technologies">
+            <span class="tech-title">Lenguajes disponibles</span>
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+        </div>
+
+        <hr class="divider">
+        <div class="status-tag" id="availableTag">
+            <span class="icon"></span>
+            Disponible
+        </div>
+        <div class="contact-tag">
+            <span class="icon"></span>
+            Correo de contacto: <a href="mailto:alejandroprietosal@gmail.com">alejandroprietosal@gmail.com</a>
+        </div>
+        
+        <div id="workModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Sobre mis trabajos</h2>
+                <p>Hablo más sobre los trabajos que realizo aquí.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
