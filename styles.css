@@ -116,11 +116,11 @@ body {
     outline: 1px solid #1A1A1A;
     border: 1px solid #2E2E2E;
     position: relative;
-    width: 45.5%; /* Ancho del contenedor */
-    flex: 45.5%; /* Ajusta el ancho de los contenedores */
+    width: 48%; /* Ancho del contenedor */
+    flex: 48%; /* Ajusta el ancho de los contenedores */
     margin: 10px; /* Espacio alrededor de los contenedores */
-    box-sizing: border-box; /* Incluye padding y border en el ancho y alto */
     margin-bottom: 40px;
+    box-sizing: border-box; /* Incluye padding y border en el ancho y alto */
 }
 
 .secondary-container p {
