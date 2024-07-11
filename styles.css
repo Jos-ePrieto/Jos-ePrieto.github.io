@@ -116,11 +116,10 @@ body {
     outline: 1px solid #1A1A1A;
     border: 1px solid #2E2E2E;
     position: relative;
-    width: 48%; /* Ancho del contenedor */
-    flex: 48%; /* Ajusta el ancho de los contenedores */
-    margin: 10px; /* Espacio alrededor de los contenedores */
-    margin-bottom: 40px;
-    box-sizing: border-box; /* Incluye padding y border en el ancho y alto */
+    width: 45.5%;
+    flex: 45.5%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .secondary-container p {
@@ -216,21 +215,9 @@ body {
 
 /* Media queries para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .container {
-        margin: 20px auto;
-        text-align: center;
-    }
-    .main-content {
-        flex-direction: column;
-        align-items: center;
-    }
     .additional-container, .secondary-container {
-        flex: 1 1 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    .tecnologías {
-        justify-content: center;
+        width: 100%;
+        flex: 100%;
+        margin: 10px 0; /* Espacio entre contenedores en móvil */
     }
 }
-
