@@ -54,5 +54,16 @@
             <a href="mailto:tu-correo@gmail.com" class="email-button">Envíame un Email</a>
         </div>
     </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var button = document.querySelector('.email-button'); // Selecciona el botón por su clase
+        var audio = new Audio('sonidos/clic.mp3'); // Crea un nuevo objeto de audio con la ruta al archivo MP3
+
+        button.addEventListener('click', function() {
+            audio.play(); // Reproduce el sonido al hacer clic en el botón
+        });
+    });
+    </script>
 </body>
 </html>
