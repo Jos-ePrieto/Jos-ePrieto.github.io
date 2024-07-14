@@ -199,13 +199,13 @@ body {
     text-decoration: none;
     display: block;
     margin-top: 10px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.2s ease; /* Añadir transición para el color de fondo */
     text-align: center;
     line-height: 1;
 }
 
 .email-button:hover {
-    box-shadow: 0 0 1.5px 1.5px rgba(124, 124, 124, 0.788);
+    background-color: rgba(23, 23, 23, 0.678); /* Oscurecer el interior del botón al pasar el cursor */
 }
 
 @keyframes pulse {
