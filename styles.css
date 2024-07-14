@@ -61,9 +61,10 @@ body {
 
 .pulse {
     background-color: #171717a9;
-    border-radius: 5px;
-    padding: 5.5px;
-    margin-top: 10px;
+    border-radius: 8px; /* Ajuste basado en la fórmula */
+    padding: 6px; /* Ajuste basado en la fórmula */
+    margin-top: 15px;
+    margin-bottom: 8px;
     text-align: left;
     display: inline-block;
     border: 1px #2E2E2F solid;
@@ -76,11 +77,13 @@ body {
     display: flex;
     align-items: center;
     font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .dot {
-    width: 9px;
-    height: 9px;
+    width: 8.5px;
+    height: 8.5px;
     background-color: #51af4c;
     border-radius: 50%;
     margin-right: 5px;
@@ -111,8 +114,8 @@ body {
 
 .additional-container, .secondary-container {
     background-color: rgba(26, 26, 26, 0.19);
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 20px; /* Ajuste basado en la fórmula */
+    padding: 20px; /* Ajuste basado en la fórmula */
     outline: 1px solid #1A1A1A;
     border: 1px solid #2E2E2E;
     position: relative;
