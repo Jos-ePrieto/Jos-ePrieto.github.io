@@ -60,7 +60,7 @@ body {
 }
 
 .pulse {
-    background-color: #171717a9;
+    background-color: rgba(26, 26, 26, 0.19);
     border-radius: 8px; /* Ajuste basado en la fórmula */
     padding: 6px; /* Ajuste basado en la fórmula */
     margin-top: 12px;
